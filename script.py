@@ -5,6 +5,8 @@ class Script(object):
 
 <b>Here Is The Help For My Commands.</b>"""
 
+    ENGLISHSPELL_TXT = "<b>Hello {} I could not find the movie you asked for 🥴</b>\n\n<b>Google, Yandex Click on any button and find the <u>CORRECT MOVIE NAME </u>and enter it here but the movie will be available 🙃\n\nIf you do not receive the movie even after entering the correct name ...</b> <code>@admin type movie name</code> <b>Inform the admin in this format .. We will upload within 24 hours 😇</b>"
+    MALAYALMSPELL_TXT = "<b>ഹലോ {} നിങ്ങൾ ആവശ്യപ്പെട്ട ഈ സിനിമ എനിക്ക് കണ്ടെത്താൻ കഴിഞ്ഞില്ല 🥴 ...\n\nGoogle, Yandex ഏതെങ്കിലും ഒരു ബട്ടണിൽ ക്ലിക്ക് ചെയ്ത് ശരിയായ സിനിമയുടെ പേര് കണ്ടെത്തി ഇവിടെ നൽകുക എന്നാലേ സിനിമ / സീരിയസ് കിട്ടുകയുള്ളു 🙂...\n\nശരിയായ പേര് നൽകിയിട്ടും നിങ്ങൾക്ക് സിനിമ ലഭിക്കുന്നില്ലെങ്കിൽ ...</b> <code>@admin query</code>  <b>ഈ ഫോർമാറ്റിൽ അഡ്മിനെ അറിയിക്കുക .. ഞങ്ങൾ 24 മണിക്കൂറിനുള്ളിൽ അപ്‌ലോഡ്  ചെയ്യും 😇</b>"
     ABOUT_TXT = """<b>➥ My name: {}
 ➥ Creator: <a href='https://t.me/zautekm'>Zaute Km</a>
 ➥ Library: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
@@ -341,6 +343,16 @@ a bot to create a link to share text in the telegram.
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
+"""
+    SPELL_CHECK_ENG = """
+Google the correct movie name by clicking the Google Button or click on the button labeled yendex and find the correct movie name and enter it here Movie / Tv. Web Series will get ..
+If you still do not get it. Movie Name & year after @admin. Example: Add @admin kala 2020 to the group in this way. The admin will upload within 24 hours
+If you ask for a movie released in theaters, you will not get it, only if it is released on ott Dvd
+"""
+    SPELL_CHECK_MAL = """
+Google, yendex എന്ന് എഴുതിയിരിക്കുന്ന ഏതെങ്കിലും ബട്ടണിൽ ക്ലിക്ക് ചെയ്ത് ശരിയായ സിനിമയുടെ പേര് കണ്ടെത്തി ഇവിടെ നൽകുക എന്നാലേ സിനിമ / Tv . Web സീരിയസ് കിട്ടുകയുള്ളു.. 
+എന്നിട്ടും കിട്ടുന്നില്ല എങ്കിൽ. @admin ശേഷം മൂവി Name & year. Example : @admin kala 2020 ഈ രീതിയിൽ  ഗ്രൂപ്പിൽ സെന്റ് ചെയുക. 24 മണിക്കൂറിനുള്ളിൽ അഡ്മിൻ അപ്‌ലോഡ് ചെയ്യും
+തിയേറ്ററിൽ റിലീസ് ആയ മൂവിയാണ് ചോദിച്ചതെങ്കിൽ കിട്ടില്ല ott Dvd റിലീസ് ആയാൽ മാത്രമേ കിട്ടുള്ളൂ
 """
 
     LOG_TEXT_P = """#NewUser
